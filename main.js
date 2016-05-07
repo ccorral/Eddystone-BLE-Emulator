@@ -68,7 +68,7 @@ chrome.app.runtime.onLaunched.addListener(function() {
         $('#status').text("Connected.");
         console.log('Advertising: ' + advertisement);
         $("#stop").prop("disabled", false);
-        $("#stop").css("background-color","red");
+        $("#stop").css("background-color","#D0021B");
       }).catch(error => {
           $('#status').text("Issue connecting. Unable to establish an advertisement.");
           $('#status').append('<br>');
