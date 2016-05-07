@@ -1,0 +1,73 @@
+html, body {
+  height: 100%;
+}
+body {
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  top: 40px;
+  bottom: 15px;
+  text-align: center;
+  width: 100%;
+  line-height: 120%;
+  color: rgb(66,66,66);
+  letter-spacing: -0.05em;
+}
+button {
+  bottom: 20px;
+  margin-left: 45%;
+}
+#eddystoneSetup {
+  margin-left:40px;
+  margin-bottom:20px;
+}
+#start {
+  color:#fff;
+  background-color: green;
+  width:300px;
+  height: 40px;
+  margin-left:-5px;
+  margin-left:13%;
+  margin-top:10px;
+  border-radius: 4px;
+  border: 0;
+  cursor:pointer;
+}
+#stop {
+  color:#000;
+  background-color: #eee;
+  width:300px;
+  height: 40px;
+  margin-left:-5px;
+  margin-left:13%;
+  margin-top:10px;
+  border-radius: 4px;
+  border: 0;
+}
+.controls label {
+  display:inline-block;
+  text-align: center;
+  margin-left: 10%;
+}
+.controls input {
+  display:block;
+  margin: 0 auto;
+}
+.controls {
+  margin-left:13%;
+  padding-botton:30px;
+}
+.statusMessage {
+  text-align: center;
+  margin-top: 20px;
+}
+.urlInputClass {
+  width:300px;
+  height:30px;
+  margin-left:12.5%;
+  margin-top:15px;
+  padding-left:4px;
+}

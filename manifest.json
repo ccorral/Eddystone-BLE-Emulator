@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Eddystone Advertiser",
+  "version": "2.1",
+  "minimum_chrome_version": "23",
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  },
+  "content_security_policy": "script-src 'self' https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css; object-src 'self'"
+}

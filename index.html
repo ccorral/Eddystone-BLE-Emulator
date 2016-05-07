@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Eddystone Advertiser</title>
+    <link href="styles/main.css" rel="stylesheet">
+    <script src="jquery-2.2.3.min.js"></script>
+</head>
+<body>
+    <h2>Eddystone BLE Advertisement Set Up</h2>
+    <div id="eddystoneSetup">
+      <div class="controls">
+        <label class="radio">
+          <input type="radio" name="eddystone" value="UID" id="uid" checked>Eddystone UID<br>
+        </label>
+        <label class="radio">
+          <input type="radio" name="eddystone" value="URL" id="url">Eddystone URL<br>
+        </label>
+    </div>
+      <div>
+        <input id="urlInput" class="urlInputClass" placeholder="Default: https://www.codesmith.io" disabled></input>
+      </div>
+      <button id="start">START ADVERTISING</button>
+      <button id="stop" disabled>STOP ADVERTISING</button>
+    </div>
+    <div class="statusMessage">
+      <span>Status:</span>
+      <span id="status"></span>
+    </div>
+    <script src="beacon.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
