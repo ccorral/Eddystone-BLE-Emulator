@@ -1,6 +1,6 @@
 # Eddystone BLE Advertiser for type UID and URL.
 
-This is a small application that emmits Eddystone UID and URL events.
+This is a small application that emits Eddystne Bluetooth Low Energy Emulator UID and URL events.
 NOTE: Only available on Chrome OS.
 
 ## Screenshot

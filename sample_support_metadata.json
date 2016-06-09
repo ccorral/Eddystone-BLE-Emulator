@@ -1,5 +1,5 @@
 {
-  "sample": "Eddystone Advertiser",
+  "sample": "Eddystne Bluetooth Low Energy Emulator",
   "files_with_snippets": [ ],
   "android": {"works": true},
   "ios": {"works": true}
